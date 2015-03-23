@@ -21,5 +21,8 @@ public class YLSegmentedRadioGroup extends RadioGroup {
 
     }
 
-    
+    @Override
+    protected void onFinishInflate() {
+        super.onFinishInflate();
+    }
 }
